@@ -1,0 +1,549 @@
+/* 444 lines */
+
+/*Start main rules*/
+* {
+  font-family: tahoma, arial;
+  box-sizing: border-box;
+}
+/* .container {
+  margin: auto;
+} */
+.clearfix {
+  clear: both;
+}
+/* End main rules */
+
+/* Start header */
+
+.header .slider {
+  background-color: #fff;
+  background-image: url("../images/slider.jpg");
+  background-size: cover;
+  height: 600px;
+}
+.header .slider .intro {
+  padding-top: 200px;
+  text-align: center;
+  color: #000;
+}
+.header .slider .intro h2 {
+  margin: 0 auto;
+  font-size: 50px;
+  padding: 5px 0;
+  color: #fff;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  margin-bottom: 30px;
+}
+.header .slider .intro button {
+  border-color: #fff;
+  color: #fff;
+}
+.header .nav {
+  background-color: #252f31;
+  color: #fff;
+  overflow: hidden;
+}
+.header .nav h2 {
+  text-transform: uppercase;
+  padding: 10px;
+  color: #fff;
+}
+.header .nav h2 span {
+  color: #2ecc71;
+}
+.header .nav ul {
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  float: right;
+}
+.header .nav ul li {
+  padding: 10px;
+  float: left;
+}
+/* End header */
+
+/* Start Featurs */
+.featurs {
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.featurs .feat h2 {
+  text-transform: capitalize;
+}
+/* End Features */
+
+/* Start About-me */
+.about-me {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+.about-me .image img {
+  width: 100%;
+}
+.about-me .info h2 {
+  margin: 20px 0 20px 40px;
+}
+.about-me .info > p {
+  margin: 0 0 10px 40px;
+}
+.about-me .info .info > p:last-of-type {
+  margin-top: 25px;
+}
+.about-me .info .hobbies {
+  margin: 15px 0 0 40px;
+}
+.about-me .info .hobbies .content .icon i {
+  margin-top: 30px;
+}
+.about-me .info .hobbies .content .text h3 {
+  margin-bottom: 5px;
+}
+.about-me .info .hobbies .content .text p {
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+/* End About-me */
+
+/* Start my-skills */
+.my-skills {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.my-skills .skills h2 {
+  margin: 20px 0 20px 40px;
+}
+.my-skills .skills p {
+  margin: 0 0 10px 40px;
+}
+.my-skills .skills p:last-of-type {
+  margin-top: 25px;
+}
+.my-skills .skills button {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.my-skills .progress .technique {
+  margin-left: 50px;
+}
+.my-skills .progress .technique div {
+  background-color: #f2f2f2;
+}
+.my-skills .progress .technique div span {
+  background-color: #2dcc70;
+
+  display: block;
+  color: white;
+  line-height: 25px;
+  text-align: right;
+  font-weight: bold;
+}
+/* End my-skills */
+
+/* Start Resume */
+.resume {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.resume h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.resume p {
+  padding: 0 40px;
+}
+.resume button {
+  margin-top: 30px;
+}
+/* End Resume */
+
+/* Start my education */
+.my-education {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.my-education hr {
+  margin: 20px 0;
+  background-color: #999;
+  height: 1px;
+  border: 0;
+}
+.my-education .main p:last-of-type {
+  margin-top: 25px;
+}
+.my-education .exp h3 {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+.my-education .exp span {
+  display: block;
+  margin-bottom: 10px;
+}
+.my-education .exp span:first-of-type {
+  color: #999;
+}
+.my-education .exp span:last-of-type {
+  background-color: #2dcc70;
+  color: #fff;
+  padding: 4px 10px;
+  width: fit-content;
+}
+/* End my education*/
+
+/* Start testmonials */
+.testemonials {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.testemonials q {
+  color: #888;
+  font: italic bold 18px/1.8 arial, tahoma;
+}
+.testemonials ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.testemonials ul li {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #2dcc70;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+}
+.testemonials ul li.active,
+.testemonials ul li:hover {
+  background-color: #2dcc70;
+}
+/* End testmonials */
+
+/* Start Portfolio */
+.portfolio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.portfolio h2 {
+  font-size: 30px;
+}
+.portfolio p {
+  margin-bottom: 30px;
+}
+.portfolio .our-work {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.portfolio .our-work > div {
+  width: 320px;
+  margin-bottom: 10px;
+}
+.portfolio .our-work > div img {
+  width: 92%;
+  margin: 10px;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 12px #ccc;
+}
+
+/* End Portfolio */
+
+/* Start contact me */
+.contact {
+  background-color: #252f31;
+
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.contact h2 {
+  color: #fff;
+}
+.contact p {
+  color: #6a6e71;
+}
+.contact p strong {
+  color: #d1d6da;
+}
+.contact .form label {
+  display: block;
+  color: #d1d6da;
+  margin: 10px 0;
+}
+.contact .form input[type="text"] {
+  background-color: #4b5557;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contact .form textarea {
+  background-color: #4b5557;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+  height: 300px;
+}
+.contact .form input[type="submit"] {
+  color: #d1d6da;
+  background-color: #191e22;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+}
+/* End contact me */
+
+/* Start footer */
+.footer {
+  background-color: #192e22;
+  color: #6a6e71;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  /* display: flex;
+  justify-content: center; */
+}
+.footer ul li {
+  display: inline-block;
+  margin-top: 20px;
+}
+.footer ul li i:hover {
+  color: #fff;
+  cursor: pointer;
+}
+/* End footer */
+
+/* Start My Framework  */
+.my-button {
+  background: none;
+  border: 3px solid #2dcc70;
+  padding: 10px 30px;
+  color: #2dcc70;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+p {
+  line-height: 1.8;
+  color: #888;
+}
+h2,
+h3 {
+  color: #777;
+}
+/* End My Framework */
+
+/* Start Grid system */
+
+/* .grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Extra Small Devices => Mobile
+   Small Screens
+   Medium Screens
+   Large Screens  
+*/
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Small Screens */
+/* @media (min-width: 576px) and (max-width: 767px) {
+  .col-sm-1 {
+    width: calc((1 * 100%) / 12);
+  }
+  .col-sm-2 {
+    width: calc((2 * 100%) / 12);
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: calc((4 * 100%) / 12);
+  }
+  .col-sm-5 {
+    width: calc((5 * 100%) / 12);
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: calc((7 * 100%) / 12);
+  }
+  .col-sm-8 {
+    width: calc((8 * 100%) / 12);
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: calc((10 * 100%) / 12);
+  }
+  .col-sm-11 {
+    width: calc((11 * 100%) / 12);
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+} */
+
+/* Medium Screens */
+/* @media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1 {
+    width: calc((1 * 100%) / 12);
+  }
+  .col-md-2 {
+    width: calc((2 * 100%) / 12);
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: calc((4 * 100%) / 12);
+  }
+  .col-md-5 {
+    width: calc((5 * 100%) / 12);
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: calc((7 * 100%) / 12);
+  }
+  .col-md-8 {
+    width: calc((8 * 100%) / 12);
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: calc((10 * 100%) / 12);
+  }
+  .col-md-11 {
+    width: calc((11 * 100%) / 12);
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+} */
+
+/* Large Screens */
+/* @media (min-width: 992px) {
+  .col-lg-1 {
+    width: calc((1 * 100%) / 12);
+  }
+  .col-lg-2 {
+    width: calc((2 * 100%) / 12);
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: calc((4 * 100%) / 12);
+  }
+  .col-lg-5 {
+    width: calc((5 * 100%) / 12);
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: calc((7 * 100%) / 12);
+  }
+  .col-lg-8 {
+    width: calc((8 * 100%) / 12);
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: calc((10 * 100%) / 12);
+  }
+  .col-lg-11 {
+    width: calc((11 * 100%) / 12);
+  }
+  .col-lg-12 {
+    width: 100%;
+  } */
+/*  */
+
+/* Xlg start  */
+/* @media (min-width: 1200px) {
+  .col-xlg-1 {
+    width: calc((1 * 100%) / 12);
+  }
+  .col-xlg-2 {
+    width: calc((2 * 100%) / 12);
+  }
+  .col-xlg-3 {
+    width: calc((3 * 100%) / 12);
+  }
+  .col-xlg-4 {
+    width: calc((4 * 100%) / 12);
+  }
+  .col-xlg-5 {
+    width: calc((5 * 100%) / 12);
+  }
+  .col-xlg-6 {
+    width: calc((6 * 100%) / 12);
+  }
+  .col-xlg-7 {
+    width: calc((7 * 100%) / 12);
+  }
+  .col-xlg-8 {
+    width: calc((8 * 100%) / 12);
+  }
+  .col-xlg-9 {
+    width: calc((9 * 100%) / 12);
+  }
+  .col-xlg-10 {
+    width: calc((10 * 100%) / 12);
+  }
+  .col-xlg-11 {
+    width: calc((11 * 100%) / 12);
+  }
+  .col-xlg-12 {
+    width: calc((12 * 100%) / 12);
+  }
+} */
+
+/* xlg end */
+/* End Grid system  */
